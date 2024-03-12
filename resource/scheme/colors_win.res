@@ -1,0 +1,6 @@
+Scheme
+{
+	Colors
+	{
+	}
+}
