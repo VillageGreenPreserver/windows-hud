@@ -68,7 +68,7 @@
 
 			"fonts"
 			{
-				"0"		"Franklin14"
+				"0"		"Trebuchet14"
 			}
 		}
 		"NameLabel3"
@@ -89,7 +89,7 @@
 
 			"fonts"
 			{
-				"0"		"Franklin14"
+				"0"		"Trebuchet14"
 			}
 		}
 		"DescLine1"

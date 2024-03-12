@@ -2,202 +2,202 @@
 {
 	"Fonts"
 	{
-		"Franklin6"
+		"Trebuchet6"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin8"
+		"Trebuchet8"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin10"
+		"Trebuchet10"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin11"
+		"Trebuchet11"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin12"
+		"Trebuchet12"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin13"
+		"Trebuchet13"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"13"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin14"
+		"Trebuchet14"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin16"
+		"Trebuchet16"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin18"
+		"Trebuchet18"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin20"
+		"Trebuchet20"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin22"
+		"Trebuchet22"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin24"
+		"Trebuchet24"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin26"
+		"Trebuchet26"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"26"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin28"
+		"Trebuchet28"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin30"
+		"Trebuchet30"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin36"
+		"Trebuchet36"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin42"
+		"Trebuchet42"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"42"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin46"
+		"Trebuchet46"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"46"
 				"weight"		"500"
 				"additive"		"0"
 				"scanlines"		"0"
 			}
 		}
-		"Franklin50"
+		"Trebuchet50"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"50"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"Franklin56"
+		"Trebuchet56"
 		{
 			"1"
 			{
-				"name"			"Franklin Gothic Medium"
+				"name"			"Trebuchet MS"
 				"tall"			"56"
 				"weight"		"500"
 				"additive"		"0"

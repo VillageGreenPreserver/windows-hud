@@ -2547,6 +2547,19 @@
 		}		
 	}
 
+	"Test"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"xpos"			"c0"
+		"ypos"			"c0"
+		"image"			"replay/thumbnails/bg/xpbuttonhover"
+
+		"src_corner_height"		"8"				// pixels inside the image
+		"src_corner_width"		"8"
+		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
+	}
+
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2558,7 +2571,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
