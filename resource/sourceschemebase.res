@@ -18,7 +18,7 @@ Scheme
 		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"221 221 221 255"
-		"DullWhite"			"190 190 190 255"
+		"DullWhite"			"125 155 185 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
@@ -114,17 +114,17 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
-		Menu.TextColor					"White"
+		Menu.TextColor					"Black"
 		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedTextColor				"Black"
+		Menu.ArmedTextColor				"White"
 		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
+		ProgressBar.FgColor				"0 200 0 255"
+		ProgressBar.BgColor				"White"
 
 		PropertySheet.TextColor			"OffWhite"
 		PropertySheet.SelectedTextColor	"White"
@@ -133,10 +133,10 @@ Scheme
 		RadioButton.TextColor			"OffWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"OffWhite"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Orange"
+		RichText.TextColor				"White"
+		RichText.BgColor				"0 0 0 255"
+		RichText.SelectedTextColor		"0 0 0 255"
+		RichText.SelectedBgColor		"White"
 
 		ScrollBar.Wide					17
 
@@ -167,12 +167,12 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"OffWhite"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
+		TextEntry.TextColor			"Black"
+		TextEntry.BgColor			"White"
+		TextEntry.CursorColor		"Black"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
+		TextEntry.SelectedTextColor	"White"
 		TextEntry.SelectedBgColor	"Orange"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
@@ -198,8 +198,8 @@ Scheme
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"White"
+		Console.TextColor			"White"
+		Console.DevTextColor		"255 0 0 255"
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
@@ -476,13 +476,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"10"
-				"weight"	"500"
+				"name"			"Command Prompt 08x12"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"0"
 			}
 		}
 
@@ -1070,6 +1068,7 @@ Scheme
 			"draw_corner_width"		"16"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"16"	
 		}
+
 		ButtonBorder
 		{
 			"bordertype"			"scalable_image"
@@ -1367,99 +1366,28 @@ Scheme
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpbutton"
+
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "2 1 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpbutton"
 
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 	}
 
@@ -1471,5 +1399,6 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
+		"4"	"resource/fonts/command-prompt-08x12.ttf"
 	}
 }

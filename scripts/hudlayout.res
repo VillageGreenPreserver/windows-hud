@@ -13,6 +13,67 @@
 		"draw_corner_height" 	"10"	
 	}
 
+	"BlissR"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"p0.25"
+		"tall"			"f0"
+		"proportionaltoparent"	"1"
+
+		"pinner"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"r0"
+			"proportionaltoparent"	"1"
+		}
+
+		"Bliss"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"480"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/bg/bliss"
+			"pin_to_sibling"	"pinner"
+			"pin_corner_to_sibling"	"1"
+		}
+	}
+
+	"BlissB"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"p0.25"
+		"proportionaltoparent"	"1"
+
+		"pinner"
+		{
+			"ControlName"	"Panel"
+			"ypos"			"r0"
+			"proportionaltoparent"	"1"
+		}
+
+		"Bliss"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"480"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/bg/bliss"
+			"pin_to_sibling"	"pinner"
+			"pin_corner_to_sibling"	"2"
+		}
+	}
 
 	HudPlayerStatus
 	{

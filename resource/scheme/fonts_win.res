@@ -203,217 +203,217 @@
 				"additive"		"0"
 			}
 		}
-		"ocra6"
+		"CMD6"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra8"
+		"CMD8"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra10"
+		"CMD10"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra11"
+		"CMD11"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra12"
+		"CMD12"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra13"
+		"CMD13"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"13"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra14"
+		"CMD14"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra16"
+		"CMD16"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra18"
+		"CMD18"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra20"
+		"CMD20"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra22"
+		"CMD22"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra24"
+		"CMD24"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra26"
+		"CMD26"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"26"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra28"
+		"CMD28"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra30"
+		"CMD30"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
-		"ocra36"
+		"CMD36"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"ocra42"
+		"CMD42"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"42"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"ocra46"
+		"CMD46"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"46"
 				"weight"		"500"
 				"additive"		"0"
 				"scanlines"		"0"
 			}
 		}
-		"ocra50"
+		"CMD50"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"50"
 				"weight"		"500"
 				"additive"		"0"
 			}
 		}
-		"ocra56"
+		"CMD56"
 		{
 			"1"
 			{
-				"name"			"ocra"
+				"name"			"Command Prompt 08x12"
 				"tall"			"56"
 				"weight"		"500"
 				"additive"		"0"

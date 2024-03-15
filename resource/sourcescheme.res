@@ -24,6 +24,7 @@ Scheme
 	    "TFTextMediumDark"          "104 96 83 255"
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
+		"XPBlue"					"0 120 215 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
 
@@ -43,16 +44,16 @@ Scheme
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
+		Border.Bright					"DullWhite"	// the lit side of a control
+		Border.Dark						"DullWhite"		// the dark/unlit side of a control
 		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
+		Button.TextColor				"black"
+		Button.BgColor					"blank"
+		Button.ArmedTextColor			"black"
+		Button.ArmedBgColor				"blank"
+		Button.DepressedTextColor		"black"
+		Button.DepressedBgColor			"blank"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"TFTextBright"
@@ -86,10 +87,10 @@ Scheme
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
-		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
+		Label.TextDullColor				"black"
+		Label.TextColor					"black"
+		Label.TextBrightColor			"black"
+		Label.SelectedTextColor			"black"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"TFTextDull"	
 		Label.DisabledFgColor2			"Blank"	
@@ -104,11 +105,11 @@ Scheme
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
-		Menu.DividerColor		"BorderDark"
+		Menu.FgColor			"Black"
+		Menu.BgColor			"White"
+		Menu.ArmedFgColor		"White"
+		Menu.ArmedBgColor		"XPBlue"
+		Menu.DividerColor		"DullWhite"
 		
 		ScrollBarButton.FgColor				"TFDarkBrown"
 		ScrollBarButton.BgColor				"TFTanLight"
@@ -126,9 +127,9 @@ Scheme
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
 		
-		TextEntry.TextColor			        "TFTextBright"
+		TextEntry.TextColor			        "Black"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		TextEntry.SelectedBgColor	        "XPBlue"
 	}
 	
 	Fonts

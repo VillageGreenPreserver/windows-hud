@@ -2708,5 +2708,6 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"8"	"resource/fonts/command-prompt-08x12.ttf"
 	}
 }
