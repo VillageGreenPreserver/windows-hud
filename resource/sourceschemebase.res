@@ -138,7 +138,7 @@ Scheme
 		RichText.SelectedTextColor		"0 0 0 255"
 		RichText.SelectedBgColor		"White"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					14
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -1063,10 +1063,10 @@ Scheme
 			
 			"image"					"replay/thumbnails/bg/xpborder"
 
-			"src_corner_height"		"36"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"	
+			"src_corner_height"		"37"				// pixels inside the image
+			"src_corner_width"		"37"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"14"	
 		}
 
 		ButtonBorder
@@ -1080,6 +1080,47 @@ Scheme
 			"src_corner_width"		"8"
 			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"3"	
+		}
+
+		ScrollBarSliderBorder
+		{
+			"backgroundtype"		"0"
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "white"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "white"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "white"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "white"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		DepressedBorder
@@ -1163,7 +1204,10 @@ Scheme
 		
 		TitleButtonBorder
 		{
-			"backgroundtype" "0"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpclose"
 		}
 
 		TitleButtonDisabledBorder
@@ -1173,89 +1217,26 @@ Scheme
 
 		TitleButtonDepressedBorder
 		{
-			"backgroundtype" "0"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpclosedepressed"
 		}
 
 		ScrollBarButtonBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpsliderbutton"
 		}
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpsliderbuttondepressed"
 		}
 
 		TabBorder

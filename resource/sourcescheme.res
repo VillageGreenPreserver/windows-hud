@@ -82,7 +82,7 @@ Scheme
 		Frame.OutOfFocusBgColor			"255 255 255 50"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
+		FrameTitleButton.FgColor		"blank"
 		FrameTitleBar.Font				"Trebuchet22"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
@@ -111,15 +111,15 @@ Scheme
 		Menu.ArmedBgColor		"XPBlue"
 		Menu.DividerColor		"DullWhite"
 		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		ScrollBarButton.FgColor				"80 90 130 255"
+		ScrollBarButton.BgColor				"blank"
+		ScrollBarButton.ArmedFgColor		"white"
+		ScrollBarButton.ArmedBgColor		"blank"
+		ScrollBarButton.DepressedFgColor	"black"
+		ScrollBarButton.DepressedBgColor	"blank"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		ScrollBarSlider.BgColor				"243 241 231 255"		// this isn't really used
+		ScrollBarSlider.FgColor				"200 210 250 255"		// handle with which the slider is grabbed
 		
 		Slider.NobColor				"TFTanLight"		
 		Slider.TextColor			"TFTextBright"

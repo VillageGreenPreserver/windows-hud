@@ -9,8 +9,8 @@
 
 		"src_corner_height"		"32"				// pixels inside the image
 		"src_corner_width"		"32"
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"	
+		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"12"	
 	}
 
 	"BlissR"

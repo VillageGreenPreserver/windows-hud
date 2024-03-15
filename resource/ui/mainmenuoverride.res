@@ -233,10 +233,10 @@
 		"tall"			"p0.75"
 		"image"			"replay/thumbnails/bg/xpborder"
 
-		"src_corner_height"		"36"				// pixels inside the image
-		"src_corner_width"		"32"
-		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"10"	
+		"src_corner_height"		"37"				// pixels inside the image
+		"src_corner_width"		"37"
+		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"14"	
 	}
 
 	"BlissR"
@@ -2616,12 +2616,12 @@
 		"ControlName"	"ScalableImagePanel"
 		"xpos"			"c0"
 		"ypos"			"c0"
-		"image"			"replay/thumbnails/bg/xpbuttonhover"
+		"wide"			"8"
+		"tall"			"200"
+		"image"			"replay/thumbnails/bg/xpslider"
 
-		"src_corner_height"		"8"				// pixels inside the image
-		"src_corner_width"		"8"
-		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"3"	
+		"src_corner_height"		"4"				// pixels inside the image
+		"draw_corner_height" 	"2"	
 	}
 
 	"SettingsButton"
