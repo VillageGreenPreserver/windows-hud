@@ -75,13 +75,48 @@
 		}
 	}
 
+	"Taskbar"
+	{
+		"ControlName"	"ImagePanel"
+		"ypos"			"rs1"
+		"wide"			"f0"
+		"tall"			"13"
+		"zpos"			"-99"
+		"scaleImage"	"1"
+		"tilehorizontally"	"0"
+		"image"			"replay/thumbnails/bg/taskbar"
+	}
+
+	"StartButton"
+	{
+		"ControlName"	"ImagePanel"
+		"ypos"			"rs1"
+		"wide"			"43"
+		"tall"			"13"
+		"zpos"			"2"
+		"scaleimage"	"1"
+		"image"	"replay/thumbnails/bg/startdefault"
+	}
+
+	"TaskbarRight"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
+		"wide"			"13"
+		"tall"			"13"
+		"zpos"			"2"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/bg/taskbarright"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"-50"
 		"wide"	"f0"
 		"tall"	"480"
 	}

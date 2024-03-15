@@ -66,9 +66,10 @@
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Trebuchet MS Bold"
 				"tall"			"14"
 				"weight"		"500"
+				"antialias"		"1"
 				"additive"		"0"
 			}
 		}
@@ -79,47 +80,51 @@
 				"name"			"Trebuchet MS"
 				"tall"			"16"
 				"weight"		"500"
-				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"		"1"
 			}
 		}
+
 		"Trebuchet18"
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
+				"name"		"Trebuchet MS"
+				"tall"		"18"
+				"weight"	"900"
 			}
 		}
+
 		"Trebuchet20"
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
-				"tall"			"20"
-				"weight"		"500"
-				"additive"		"0"
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"900"
 			}
 		}
 		"Trebuchet22"
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Trebuchet MS Bold"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"		"1"
 			}
 		}
 		"Trebuchet24"
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
-				"tall"			"24"
-				"weight"		"500"
-				"additive"		"0"
+				"name"		"Trebuchet MS Bold"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"Trebuchet26"

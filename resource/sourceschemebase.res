@@ -1063,10 +1063,10 @@ Scheme
 			
 			"image"					"replay/thumbnails/bg/xpborder"
 
-			"src_corner_height"		"37"				// pixels inside the image
-			"src_corner_width"		"37"
-			"draw_corner_width"		"16"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"16"	
+			"src_corner_height"		"36"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"	
 		}
 
 		ButtonBorder

@@ -226,14 +226,79 @@
 		}
 	}
 
-	"BG"
+	"XPBorder"
 	{
-		"ControlName"	"ImagePanel"
-		"wide"			"f0"
+		"ControlName"	"ScalableImagePanel"
+		"wide"			"p0.75"
+		"tall"			"p0.75"
+		"image"			"replay/thumbnails/bg/xpborder"
+
+		"src_corner_height"		"36"				// pixels inside the image
+		"src_corner_width"		"32"
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"	
+	}
+
+	"BlissR"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"p0.25"
 		"tall"			"f0"
-		"zpos"			"-199"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/bg/bliss"
+		"proportionaltoparent"	"1"
+
+		"pinner"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"r0"
+			"proportionaltoparent"	"1"
+		}
+
+		"Bliss"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"480"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/bg/bliss"
+			"pin_to_sibling"	"pinner"
+			"pin_corner_to_sibling"	"1"
+		}
+	}
+
+	"BlissB"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"p0.25"
+		"proportionaltoparent"	"1"
+
+		"pinner"
+		{
+			"ControlName"	"Panel"
+			"ypos"			"r0"
+			"proportionaltoparent"	"1"
+		}
+
+		"Bliss"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"480"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/bg/bliss"
+			"pin_to_sibling"	"pinner"
+			"pin_corner_to_sibling"	"2"
+		}
 	}
 
 	"Taskbar"
@@ -244,7 +309,6 @@
 		"tall"			"13"
 		"zpos"			"1"
 		"scaleImage"	"1"
-		"tilehorizontally"	"0"
 		"image"			"replay/thumbnails/bg/taskbar"
 	}
 
@@ -1890,7 +1954,7 @@
 		"tall"			"220"
 		"visible"		"0"	
 
-		"StartMiddle"
+		"BG"
 		{
 			"ControlName"	"ImagePanel"
 			"ypos"			"0"
@@ -2574,7 +2638,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"HI"
+		"labelText"		"HI "
 		"font"			"CMD8"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -2582,7 +2646,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"OpenLoadCommentaryDialog"
+		"Command"		"reloadscheme"
 
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"ReportBugButton"
