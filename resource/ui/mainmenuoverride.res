@@ -233,6 +233,8 @@
 		"tall"			"p0.75"
 		"image"			"replay/thumbnails/bg/xpborder"
 
+		"visible"		"0"
+
 		"src_corner_height"		"37"				// pixels inside the image
 		"src_corner_width"		"37"
 		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
@@ -245,7 +247,7 @@
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"p0.25"
+		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 
@@ -2613,15 +2615,194 @@
 
 	"Test"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"Label"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"200"
+		"tall"			"200"
+		"visible"		"1"
+		"bgcolor_override"	"Blue"
+		"ignorescheme"	"1"
+		"collapsed_height"	"200"
+		"expanded_height"	"200"
+		"usetitlesafe"	"1"
+	}
+	"ADContainerTest"
+	{
+		"ControlName"	"CCyclingAdContainerPanel"
 		"xpos"			"c0"
 		"ypos"			"c0"
-		"wide"			"8"
+		"wide"			"200"
 		"tall"			"200"
-		"image"			"replay/thumbnails/bg/xpslider"
+		"visible"		"0"
 
-		"src_corner_height"		"4"				// pixels inside the image
-		"draw_corner_height" 	"2"	
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"3.0"
+
+				"Test"
+				{
+					"ControlName"	"Label"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"visible"		"1"
+					"fgcolor_override"	"black"
+					"proportionaltoparent"	"1"
+					"font"			"Trebuchet12"
+					"labeltext"		"Hello I am a CCyclingAdContainerPanel"
+					"textAlignment"	"center"
+				}
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"3.0"
+
+				"Test"
+				{
+					"ControlName"	"Label"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"p0.75"
+					"visible"		"1"
+					"fgcolor_override"	"black"
+					"proportionaltoparent"	"1"
+					"font"			"Trebuchet12"
+					"labeltext"		"You can put anything inside these panels"
+					"textAlignment"	"center"
+				}
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"cs-0.5"
+					"ypos"			"p0.5"
+					"wide"			"o1"
+					"tall"			"p0.3"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"image"			"replay/thumbnails/monkeywait"
+					"scaleImage"		"1"
+				}
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"0.5"
+
+				"Test"
+				{
+					"ControlName"	"Label"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f6"
+					"tall"			"p0.75"
+					"visible"		"1"
+					"fgcolor_override"	"black"
+					"proportionaltoparent"	"1"
+					"font"			"Trebuchet12"
+					"centerwrap"	"1"
+					"labeltext"		"And you can have as many of them as you like, wherever you like"
+					"textAlignment"	"center"
+				}
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"cs-0.5"
+					"ypos"			"p0.5"
+					"wide"			"o1"
+					"tall"			"p0.3"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"image"			"replay/thumbnails/return"
+					"scaleImage"		"1"
+				}
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+			}
+		}
 	}
 
 	"SettingsButton"
@@ -2635,7 +2816,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"HI "
