@@ -12,6 +12,13 @@
 		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"12"	
 	}
+	
+	"MMDashBoardPopupContainer"
+	{
+		"xpos"			"r0"
+		"wide"			"0"
+		"visible"		"0"	
+	}
 
 	"BlissR"
 	{

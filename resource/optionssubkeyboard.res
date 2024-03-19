@@ -1,5 +1,10 @@
 "Resource/OptionsSubKeyboard.res"
 {
+	"OptionsSubKeyboard"
+	{
+		"bgcolor_override"	"BrightYellow"
+	}
+
 	"listpanel_keybindlist"
 	{
 		"ControlName"		"SectionedListPanel"

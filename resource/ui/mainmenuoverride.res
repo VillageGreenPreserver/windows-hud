@@ -1,5 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
+
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -2613,197 +2614,235 @@
 		}		
 	}
 
-	"Test"
+	"TEST"
 	{
-		"ControlName"	"Label"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"bgcolor_override"	"Blue"
-		"ignorescheme"	"1"
-		"collapsed_height"	"200"
-		"expanded_height"	"200"
-		"usetitlesafe"	"1"
-	}
-	"ADContainerTest"
-	{
-		"ControlName"	"CCyclingAdContainerPanel"
+		"ControlName"	"ScalableImagePanel"
 		"xpos"			"c0"
 		"ypos"			"c0"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"0"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+
+		"image"			"replay/thumbnails/bg/xpSheet"
+
+		"src_corner_width"	"4"
+		"src_corner_height"	"4"
+
+		"draw_corner_width"		"2"
+		"draw_corner_height"	"2"
+
+		"fillcolor"	"Blue"
+		"paintBackground"	"1"
+	}
+
+	"TEST2"
+	{
+		"ControlName"	"Panel"
+		"xpos"			"c0"
+		"ypos"			"c0"
+		"wide"			"22"
+		"tall"			"11"
+		"visible"		"1"
+
+		"bgcolor_override"	"245 245 240 255"
+		"paintbackgroundtype"	"2"
+		"paintBackground"	"1"
+	}
+
+"ADContainerTest"
+{
+	"ControlName"	"CCyclingAdContainerPanel"
+	"xpos"			"c0"
+	"ypos"			"c0"
+	"wide"			"200"
+	"tall"			"200"
+	"visible"		"0"
 
 
-		"items"
+	"items"
+	{
+		"1"
 		{
-			"0"
+			"item"		"Frying Pan"
+			"show_market"	"0"
+			"present_time"	"3.0"
+
+			"Test"
 			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"3.0"
-
-				"Test"
-				{
-					"ControlName"	"Label"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"visible"		"1"
-					"fgcolor_override"	"black"
-					"proportionaltoparent"	"1"
-					"font"			"Trebuchet12"
-					"labeltext"		"Hello I am a CCyclingAdContainerPanel"
-					"textAlignment"	"center"
-				}
-
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
+				"ControlName"	"Label"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"fgcolor_override"	"black"
+				"proportionaltoparent"	"1"
+				"font"			"Trebuchet12"
+				"labeltext"		"Hello I am a CCyclingAdContainerPanel"
+				"textAlignment"	"center"
 			}
-			"1"
+			"Test2"
 			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"3.0"
-
-				"Test"
-				{
-					"ControlName"	"Label"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"p0.75"
-					"visible"		"1"
-					"fgcolor_override"	"black"
-					"proportionaltoparent"	"1"
-					"font"			"Trebuchet12"
-					"labeltext"		"You can put anything inside these panels"
-					"textAlignment"	"center"
-				}
-				"Test2"
-				{
-					"ControlName"	"ImagePanel"
-					"xpos"			"cs-0.5"
-					"ypos"			"p0.5"
-					"wide"			"o1"
-					"tall"			"p0.3"
-					"visible"		"1"
-					"proportionaltoparent"	"1"
-					"image"			"replay/thumbnails/monkeywait"
-					"scaleImage"		"1"
-				}
-
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
+				"ControlName"	"CExButton"
+				"xpos"			"0"
+				"ypos"			"10"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"fgcolor_override"	"black"
+				"command"		"openoptionsdialog"
+				"proportionaltoparent"	"1"
+				"font"			"Trebuchet12"
+				"labeltext"		"Button"
+				"textAlignment"	"center"
+				"actionsignallevel"	"4"
 			}
-			"2"
+
+			"Background"
 			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"0.5"
+				"wide"		"0"
+			}
 
-				"Test"
-				{
-					"ControlName"	"Label"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f6"
-					"tall"			"p0.75"
-					"visible"		"1"
-					"fgcolor_override"	"black"
-					"proportionaltoparent"	"1"
-					"font"			"Trebuchet12"
-					"centerwrap"	"1"
-					"labeltext"		"And you can have as many of them as you like, wherever you like"
-					"textAlignment"	"center"
-				}
-				"Test2"
-				{
-					"ControlName"	"ImagePanel"
-					"xpos"			"cs-0.5"
-					"ypos"			"p0.5"
-					"wide"			"o1"
-					"tall"			"p0.3"
-					"visible"		"1"
-					"proportionaltoparent"	"1"
-					"image"			"replay/thumbnails/return"
-					"scaleImage"		"1"
-				}
+			"ItemIcon"
+			{
+				"wide"		"0"
+			}
 
-				"Background"
-				{
-					"wide"		"0"
-				}
+			"ItemName"
+			{
+				"xpos"		"r0"
+			}
 
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
+			"BuyButton"
+			{
+				"wide"		"0"
+			}
 
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
+			"ScrollableItemText"
+			{
+				"wide"		"0"
+			}
+		}
+		"2"
+		{
+			"item"		"Frying Pan"
+			"show_market"	"0"
+			"present_time"	"3.0"
 
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
+			"Test"
+			{
+				"ControlName"	"Label"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"p0.75"
+				"visible"		"1"
+				"fgcolor_override"	"black"
+				"proportionaltoparent"	"1"
+				"font"			"Trebuchet12"
+				"labeltext"		"You can put anything inside these panels"
+				"textAlignment"	"center"
+			}
+			"Test2"
+			{
+				"ControlName"	"ImagePanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"p0.5"
+				"wide"			"o1"
+				"tall"			"p0.3"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+				"image"			"replay/thumbnails/monkeywait"
+				"scaleImage"		"1"
+			}
 
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
+			"Background"
+			{
+				"wide"		"0"
+			}
+
+			"ItemIcon"
+			{
+				"wide"		"0"
+			}
+
+			"ItemName"
+			{
+				"xpos"		"r0"
+			}
+
+			"BuyButton"
+			{
+				"wide"		"0"
+			}
+
+			"ScrollableItemText"
+			{
+				"wide"		"0"
+			}
+		}
+		"3"
+		{
+			"item"		"Frying Pan"
+			"show_market"	"0"
+			"present_time"	"0.5"
+
+			"Test"
+			{
+				"ControlName"	"Label"
+				"xpos"			"cs-0.5"
+				"ypos"			"0"
+				"wide"			"f6"
+				"tall"			"p0.75"
+				"visible"		"1"
+				"fgcolor_override"	"black"
+				"proportionaltoparent"	"1"
+				"font"			"Trebuchet12"
+				"centerwrap"	"1"
+				"labeltext"		"And you can have as many of them as you like, wherever you like"
+				"textAlignment"	"center"
+			}
+			"Test2"
+			{
+				"ControlName"	"ImagePanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"p0.5"
+				"wide"			"o1"
+				"tall"			"p0.3"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+				"image"			"replay/thumbnails/return"
+				"scaleImage"		"1"
+			}
+
+			"Background"
+			{
+				"wide"		"0"
+			}
+
+			"ItemIcon"
+			{
+				"wide"		"0"
+			}
+
+			"ItemName"
+			{
+				"xpos"		"r0"
+			}
+
+			"BuyButton"
+			{
+				"wide"		"0"
+			}
+
+			"ScrollableItemText"
+			{
+				"wide"		"0"
 			}
 		}
 	}
+}
 
 	"SettingsButton"
 	{

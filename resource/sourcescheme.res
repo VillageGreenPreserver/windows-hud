@@ -30,6 +30,10 @@ Scheme
 
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"               "131 121 104 150"
+
+		"ButtonDepressedBG"		"250 190 70 255"
+		"ButtonArmedBG"		"170 200 240 255"
+		"ButtonBG"		"245 245 240 255"
 	    
 	    "Blank"				"0 0 0 0"
 	    
@@ -51,9 +55,9 @@ Scheme
 		Button.TextColor				"black"
 		Button.BgColor					"blank"
 		Button.ArmedTextColor			"black"
-		Button.ArmedBgColor				"blank"
+		Button.ArmedBgColor				"ButtonArmedBG"
 		Button.DepressedTextColor		"black"
-		Button.DepressedBgColor			"blank"	
+		Button.DepressedBgColor			"ButtonDepressedBG"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"TFTextBright"

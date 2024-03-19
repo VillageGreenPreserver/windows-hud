@@ -5,7 +5,7 @@
 		"fieldName"				"MMDashboard"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r0"
+		"xpos"					"0"
 		"ypos"					"-5"
 		"zpos"					"10001"
 		"wide"					"f0"

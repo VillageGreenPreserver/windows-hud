@@ -17,18 +17,13 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"221 221 221 255"
-		"DullWhite"			"145 155 155 255"
+		"OffWhite"			"216 216 216 255"
+		"DullWhite"			"142 142 142 255"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
+		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
-		
-		"SteamLightGreen"	"157 194 80 255"
-		"AchievementsLightGrey"		"79 79 79 255"
-		"AchievementsDarkGrey"		"55 55 55 255"
-		"AchievementsInactiveFG"	"130 130 130 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -50,33 +45,29 @@ Scheme
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
-
-		CheckButton.TextColor			"White"
-		CheckButton.SelectedTextColor		"White"
-		CheckButton.BgColor			"TransparentBlack"
+		
+		CheckButton.TextColor			"OffWhite"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check			"White"	// color of the check itself
-		CheckButton.HighlightFgColor		"OffWhite"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.DisabledBgColor	   	"TransparentBlack"
-				
+		CheckButton.Check				"White"				// color of the check itself
+
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.TitleTextInsetX			8
+		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
 		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.0"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -91,7 +82,7 @@ Scheme
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
 		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
 		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"255 0 0 0"
+		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
@@ -114,31 +105,31 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
-		Menu.TextColor					"Black"
+		Menu.TextColor					"White"
 		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedTextColor				"White"
+		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 
-		ProgressBar.FgColor				"0 200 0 255"
-		ProgressBar.BgColor				"White"
+		ProgressBar.FgColor				"White"
+		ProgressBar.BgColor				"TransparentBlack"
 
-		PropertySheet.TextColor			"Black"
-		PropertySheet.SelectedTextColor	"Black"
-		PropertySheet.TransitionEffectTime	"0.0"	// time to change from one tab to another
+		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.SelectedTextColor	"White"
+		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"OffWhite"
+		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"White"
-		RichText.BgColor				"0 0 0 255"
-		RichText.SelectedTextColor		"0 0 0 255"
-		RichText.SelectedBgColor		"White"
+		RichText.TextColor				"OffWhite"
+		RichText.BgColor				"TransparentBlack"
+		RichText.SelectedTextColor		"Black"
+		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					14
+		ScrollBar.Wide					17
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -167,12 +158,12 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"Black"
-		TextEntry.BgColor			"White"
-		TextEntry.CursorColor		"Black"
+		TextEntry.TextColor			"OffWhite"
+		TextEntry.BgColor			"TransparentBlack"
+		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"White"
+		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"Orange"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
@@ -193,28 +184,18 @@ Scheme
 		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				[$X360]
-		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
+		MainMenu.MenuItemHeight		"32"				[$X360]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"White"
-		Console.DevTextColor		"255 0 0 255"
+		Console.TextColor			"OffWhite"
+		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"			[$WIN32]
 		NewGame.SelectionColor		"0 0 0 255"			[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
-
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
-		
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
-
-		"QuickListBGDeselected"		"AchievementsDarkGrey"
-	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -262,22 +243,17 @@ Scheme
 			{
 				"name"		 "Lucida Console" [$WINDOWS]
 				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$OSX]
-				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
+				"name"		 "Monaco" [$POSIX]
+				"tall"		"10"
+				"weight"	"0"
+				"outline"	"1"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -286,8 +262,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"1000"
 			}
@@ -296,8 +271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"500"
 				"underline" "1"
@@ -307,10 +281,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"12" [!$POSIX]
-				"tall"		"13" [$POSIX]
+				"name"		"Tahoma"
+				"tall"		"12"
 				"weight"	"0"
 			}
 		}
@@ -318,8 +290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"13"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -329,8 +300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -340,8 +310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"18"
 				"weight"	"0"
 			}
@@ -350,8 +319,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"1000"
 			}
@@ -360,7 +328,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"24"
 				"weight"	"2000"
-				"outline"	"1"
+				"outline" "1"
 			}
 		}
 		"ChapterTitle"	[$X360]
@@ -388,99 +356,43 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$POSIX]
-			{
-				"name"		"Helvetica Bold"
-				"tall"		"20"
-				"antialias" "1"
-			}
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana" 
-				"tall"		"16" 
+				"name"		"Verdana"
+				"tall"		"16"
 				"weight"	"600"
 				"antialias" "1"
 			}
 			"1"	[$X360]
 			{
 				"name"		"Verdana"
-				"tall"			"14"
-				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-			}
-		}
-		"AchievementTitleFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"1200"
 				"antialias" "1"
 				"outline" "1"
 			}
 		}
-		
-		"AchievementTitleFontSmaller"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
-				//"outline" "1"
-			}
-		}
-		
-		
-		"AchievementDescriptionFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
-			}
-		}
-		
 		GameUIButtons
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.63"
-				"scaley"	"0.63"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.8"
+				"scaley"		"0.8"
 				"scalex_hidef"	"1.0"
 				"scaley_hidef"	"1.0"
-				"scalex_lodef"	"0.75"
-				"scaley_lodef"	"0.75"
 			}
 		}
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name"			"Command Prompt 08x12"
-				"tall"			"12"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"0"
+				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [$X360]
+				"name"		 "Monaco" [$POSIX]
+				"tall"		"10"
+				"weight"	"500"
 			}
 		}
 
@@ -500,11 +412,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS Bold"
+				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias"	"1"
-				"dropshadow"	"1"
 			}
 		}
 
@@ -590,8 +500,7 @@ Scheme
 			{
 				"name"		 "Lucida Console" [$WINDOWS]
 				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"11" [$POSIX]
+				"name"		 "Monaco" [$POSIX]
 				"tall"		"10"
 				"weight"	"0"
 			}
@@ -609,10 +518,7 @@ Scheme
 			{
 				"name"		 "Lucida Console" [$WINDOWS]
 				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"name"		 "Courier" [$LINUX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$POSIX]
+				"name"		 "Monaco" [$POSIX]
 				"tall"		"10"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -629,8 +535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -639,8 +544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"500"
 				"italic"	"1"
@@ -650,8 +554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -660,8 +563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold Italic" [$POSIX]
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
@@ -717,331 +619,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		StatsTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"2000"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		
-		StatsText	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"2000"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"16" [!$POSIX]
-				"tall"			"18" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemDate	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-
-		
-		StatsPageText
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"14" [!$POSIX]
-				"tall"			"16" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"18" [!$POSIX]
-				"tall"			"19" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"weight"		"1000"
-				"tall"			"14" [!$POSIX]
-				"tall"			"15" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-
-		
-		"ServerBrowserTitle"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"ServerBrowserSmall"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}"Trebuchet6"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"6"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet8"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"8"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet10"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"10"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet11"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet12"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"12"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet13"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"13"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet14"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"14"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet16"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"16"
-				"weight"		"500"
-				"antialias"		"1"
-				"dropshadow"		"1"
-			}
-		}
-		"Trebuchet22"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS Bold"
-				"tall"			"22"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
-				"dropshadow"		"1"
-			}
-		}
-		"Trebuchet26"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"26"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet28"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"28"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet30"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"30"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet36"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"36"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet42"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"42"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet46"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"46"
-				"weight"		"500"
-				"additive"		"0"
-				"scanlines"		"0"
-			}
-		}
-		"Trebuchet50"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"50"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-		"Trebuchet56"
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"56"
-				"weight"		"500"
-				"additive"		"0"
-			}
-		}
-	
 	}
 
 	//
@@ -1051,131 +628,16 @@ Scheme
 	Borders
 	{
 		BaseBorder		DepressedBorder
+		ButtonBorder	RaisedBorder
 		ComboBoxBorder	DepressedBorder
 		MenuBorder		RaisedBorder
 		BrowserBorder	DepressedBorder
+		PropertySheetBorder	RaisedBorder
 
 		FrameBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			
-			"image"					"replay/thumbnails/bg/xpborder"
-
-			"src_corner_height"		"37"				// pixels inside the image
-			"src_corner_width"		"37"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"14"	
-		}
-
-		ButtonBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"paintfirst"			"0"
-			
-			"image"					"replay/thumbnails/bg/xpbutton"
-
-			"src_corner_width"	"16"
-			"src_corner_height"	"16"
-
-			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"
-		}
-
-		// PropertySheetBorder
-		// {
-		// 	"bordertype"			"scalable_image"
-		// 	"paintfirst"			"1"
-			
-		// 	"image"					"replay/thumbnails/bg/xpsheet"
-
-		// 	"src_corner_width"	"4"
-		// 	"src_corner_height"	"4"
-
-		// 	"draw_corner_width"		"2"
-		// 	"draw_corner_height"	"2"
-		// }
-		
-		PropertySheetBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ScrollBarSliderBorder
-		{
-			"backgroundtype"		"0"
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "white"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "white"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "white"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "white"
-					"offset" "0 0"
-				}
-			}
+			// rounded corners for frames
+			"backgroundtype" "2"
 		}
 
 		DepressedBorder
@@ -1259,10 +721,7 @@ Scheme
 		
 		TitleButtonBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xpclose"
+			"backgroundtype" "0"
 		}
 
 		TitleButtonDisabledBorder
@@ -1272,54 +731,151 @@ Scheme
 
 		TitleButtonDepressedBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xpclosedepressed"
+			"backgroundtype" "0"
 		}
 
 		ScrollBarButtonBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xpsliderbutton"
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
 		}
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xpsliderbuttondepressed"
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		TabBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xptab"
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
 
-			"src_corner_width"	"16"
-			"src_corner_height"	"16"
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
 
-			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+
 		}
 
 		TabActiveBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/bg/xptabarmed"
+			"inset" "0 0 1 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
 
-			"src_corner_width"	"16"
-			"src_corner_height"	"16"
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
 
-			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+
 		}
 
 
@@ -1366,30 +922,99 @@ Scheme
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"paintfirst"			"0"
-			
-			"image"					"replay/thumbnails/bg/xpbutton"
-
-			"src_corner_height"		"8"				// pixels inside the image
-			"src_corner_width"		"8"
-			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"3"	
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Bright"
+					"offset" "1 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Selection"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		ButtonDepressedBorder
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"paintfirst"			"0"
-			
-			"image"					"replay/thumbnails/bg/xpbutton"
+			"inset" "2 1 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
 
-			"src_corner_height"		"8"				// pixels inside the image
-			"src_corner_width"		"8"
-			"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"3"	
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
 		}
 	}
 
@@ -1399,8 +1024,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"	
-		"3"		"resource/marlett.ttf"
-		"4"		"resource/fonts/command-prompt-08x12.ttf"
+		"2"		"resource/HL2EP2.ttf"		
 	}
 }
