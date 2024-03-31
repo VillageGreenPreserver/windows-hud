@@ -247,7 +247,7 @@
 		"ControlName"	"EditablePanel"
 		"xpos"			"rs1"
 		"ypos"			"0"
-		"zpos"			"-100"
+		"zpos"			"1002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -310,7 +310,7 @@
 		"ypos"			"rs1"
 		"wide"			"f0"
 		"tall"			"13"
-		"zpos"			"1"
+		"zpos"			"1003"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/bg/taskbar"
 	}
@@ -321,7 +321,7 @@
 		"ypos"			"rs1"
 		"wide"			"43"
 		"tall"			"13"
-		"zpos"			"2"
+		"zpos"			"1004"
 		"scaleimage"	"1"
 		"inactiveimage"	"replay/thumbnails/bg/startdefault"
 		"activeimage"	"replay/thumbnails/bg/startarmed"
@@ -335,7 +335,7 @@
 		"ypos"			"rs1"
 		"wide"			"13"
 		"tall"			"13"
-		"zpos"			"2"
+		"zpos"			"1004"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/bg/taskbarright"
 	}
@@ -593,7 +593,7 @@
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"c148"
 		"ypos"			"28"
-		"zpos"			"10"
+		"zpos"			"1003"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
@@ -904,7 +904,7 @@
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"c5"
 		"ypos"			"65"
-		"zpos"			"1"
+		"zpos"			"1005"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
@@ -1952,7 +1952,7 @@
 		"fieldname"		"SafeMode"
 		"xpos"			"0"
 		"ypos"			"rs1"
-		"zpos"			"3"
+		"zpos"			"1005"
 		"wide"			"250"
 		"tall"			"220"
 		"visible"		"0"	
@@ -2619,21 +2619,17 @@
 		"ControlName"	"ScalableImagePanel"
 		"xpos"			"c0"
 		"ypos"			"c0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
+		"zpos"			"1004"
+		"wide"			"100"
+		"tall"			"11"
 		"visible"		"1"
 
-		"image"			"replay/thumbnails/bg/xpSheet"
+		"image"			"replay/thumbnails/bg/xpcombo"
 
-		"src_corner_width"	"4"
-		"src_corner_height"	"4"
-
-		"draw_corner_width"		"2"
-		"draw_corner_height"	"2"
-
-		"fillcolor"	"Blue"
-		"paintBackground"	"1"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"29"
+		"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 
 	"TEST2"

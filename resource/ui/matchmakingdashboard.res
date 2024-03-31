@@ -7,15 +7,23 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"-5"
-		"zpos"					"10001"
+		"zpos"					"1006"
 		"wide"					"f0"
 		"tall"					"35"
 		"keyboardinputenabled"	"0"
 
-		"collapsed_height"	"0"
+		"collapsed_height"	"10"
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
+
+		"TEST"
+		{
+			"ControlName"	"Button"
+			"command"		"toggle_collapse"
+			"zpos"			"5"
+		}
 	}
+
 
 	"TopBar"
 	{

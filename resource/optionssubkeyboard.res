@@ -1,6 +1,6 @@
 "Resource/OptionsSubKeyboard.res"
 {
-	"OptionsSubKeyboard"
+	"COptionsSubKeyboard"
 	{
 		"bgcolor_override"	"BrightYellow"
 	}

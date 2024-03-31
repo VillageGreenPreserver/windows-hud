@@ -53,30 +53,31 @@ Scheme
 		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"black"
-		Button.BgColor					"blank"
+		Button.BgColor					"white"
 		Button.ArmedTextColor			"black"
 		Button.ArmedBgColor				"ButtonArmedBG"
 		Button.DepressedTextColor		"black"
 		Button.DepressedBgColor			"ButtonDepressedBG"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.TextColor			"Black"
+		CheckButton.SelectedTextColor		"Black"
+		CheckButton.BgColor				"White"
+		CheckButton.HighlightFgColor		"Black"
+		CheckButton.ArmedBgColor		"White"
+		CheckButton.DepressedBgColor		"White"
+		CheckButton.Border1  			"Black" 		// the left checkbutton border
+		CheckButton.Border2  			"Black"		// the right checkbutton border
+		CheckButton.Check				"0 200 0 255"	// color of the check itself
+		CheckButton.DisabledBgColor	    "blank"
+		CheckButton.DisabledfgColor	    "AchievementsInactiveFG"
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
+		ToggleButton.SelectedTextColor	"black"
 		
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.ArrowColor		"80 90 130 255"
+		ComboBoxButton.ArmedArrowColor	"black"
+		ComboBoxButton.BgColor			"200 210 250 255"
+		ComboBoxButton.DisabledBgColor	"200 210 250 255"
 		
 		RadioButton.TextColor		"TFTextBright"
 		RadioButton.SelectedTextColor	"TFTextBright"
@@ -98,11 +99,14 @@ Scheme
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"TFTextDull"	
 		Label.DisabledFgColor2			"Blank"	
-		
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+
+		ListPanel.TextColor					"black"
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.BgColor					"white"
+		ListPanel.SelectedTextColor			"White"
+		ListPanel.SelectedBgColor			"XPBlue"
+		ListPanel.SelectedOutOfFocusBgColor	"AchievementsInactiveFG"
+		ListPanel.EmptyListInfoTextColor	"Black"
 		
 		MainMenu.TextColor			"TanLight"			[$WIN32]
 		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
@@ -125,9 +129,9 @@ Scheme
 		ScrollBarSlider.BgColor				"243 241 231 255"		// this isn't really used
 		ScrollBarSlider.FgColor				"200 210 250 255"		// handle with which the slider is grabbed
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
+		Slider.NobColor				"white"		
+		Slider.TextColor			"black"
+		Slider.TrackColor			"black"
 		Slider.DisabledTextColor1	"TFTextMediumDark"
         Slider.DisabledTextColor2	"Blank"
 		

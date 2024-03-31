@@ -956,7 +956,7 @@ Scheme
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"dropshadow"		"1"
 			}
 		}
@@ -1051,7 +1051,6 @@ Scheme
 	Borders
 	{
 		BaseBorder		DepressedBorder
-		ComboBoxBorder	DepressedBorder
 		MenuBorder		RaisedBorder
 		BrowserBorder	DepressedBorder
 
@@ -1066,6 +1065,20 @@ Scheme
 			"src_corner_width"		"37"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"14"	
+		}
+
+		ComboBoxBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"paintfirst"			"0"
+			
+			"image"					"replay/thumbnails/bg/xpcombo"
+
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"29"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
 		}
 
 		ButtonBorder
@@ -1267,7 +1280,10 @@ Scheme
 
 		TitleButtonDisabledBorder
 		{
-			"backgroundtype" "0"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg/xpclosedisabled"
 		}
 
 		TitleButtonDepressedBorder
@@ -1298,6 +1314,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"paintfirst"			"0"
 			
 			"image"					"replay/thumbnails/bg/xptab"
 
@@ -1312,6 +1329,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"paintfirst"			"0"
 			
 			"image"					"replay/thumbnails/bg/xptabarmed"
 
