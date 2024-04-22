@@ -22,6 +22,17 @@
 				"additive"		"0"
 			}
 		}
+		"Trebuchet8-Shadow"
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"dropshadow"	"1"
+			}
+		}
 		"Trebuchet10"
 		{
 			"1"
@@ -30,6 +41,18 @@
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
+			}
+		}
+		"Trebuchet10-Bold-Shadow"
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS Bold"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"		"1"
 			}
 		}
 		"Trebuchet11"
@@ -422,6 +445,242 @@
 				"tall"			"56"
 				"weight"		"500"
 				"additive"		"0"
+			}
+		}
+		"Marlett6"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"6"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett8"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"8"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett10"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"10"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett11"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"11"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett12"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"12"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett13"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"13"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett14"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"14"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett16"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"16"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett18"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"18"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett20"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"20"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett22"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"22"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett24"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"24"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett26"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"26"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett28"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"28"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett30"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"30"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
+		"Marlett36"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"36"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+			}
+		}
+		"Marlett42"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"42"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+			}
+		}
+		"Marlett46"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"46"
+				"weight"		"500"
+				"symbol"	"1"
+				"additive"		"0"
+				"scanlines"		"0"
+			}
+		}
+		"Marlett50"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"50"
+				"weight"		"500"
+				"additive"		"0"
+				"symbol"	"1"
+			}
+		}
+		"Marlett56"
+		{
+			"1"
+			{
+				"name"			"Marlett"
+				"tall"			"56"
+				"weight"		"500"
+				"additive"		"0"
+				"symbol"	"1"
 			}
 		}
 	}

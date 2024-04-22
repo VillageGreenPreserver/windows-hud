@@ -5,7 +5,7 @@
 		"fieldName"				"MMDashboard"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"r0"
 		"ypos"					"-5"
 		"zpos"					"1006"
 		"wide"					"f0"
@@ -15,13 +15,6 @@
 		"collapsed_height"	"10"
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
-
-		"TEST"
-		{
-			"ControlName"	"Button"
-			"command"		"toggle_collapse"
-			"zpos"			"5"
-		}
 	}
 
 

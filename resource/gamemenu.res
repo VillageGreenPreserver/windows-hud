@@ -42,4 +42,21 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+
+	"BlissFull"
+	{
+		"label"			"hello"
+		"command"		"engine echo"
+		"OnlyAtMenu"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"Paint"
+	{
+		"label"			"hello"
+		"command"		"engine echo"
+		"OnlyAtMenu"	"1"
+		"subimage"		""
+		"tooltip"		""
+	}
 }

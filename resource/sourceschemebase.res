@@ -956,7 +956,7 @@ Scheme
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"0"
+				"antialias"		"1"
 				"dropshadow"		"1"
 			}
 		}

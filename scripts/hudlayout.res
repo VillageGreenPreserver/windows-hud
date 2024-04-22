@@ -3,14 +3,58 @@
 	"XPBorder"
 	{
 		"ControlName"	"ScalableImagePanel"
-		"wide"			"p0.75"
-		"tall"			"p0.75"
+		"wide"			"f0"
+		"tall"			"f0"
+		"zpos"			"-100"
 		"image"			"replay/thumbnails/bg/xpborder_hollow"
+
+		"wide_minmode"			"p0.75"
+		"tall_minmode"			"p0.75"
 
 		"src_corner_height"		"32"				// pixels inside the image
 		"src_corner_width"		"32"
 		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"12"	
+	}
+
+	"TEST"
+	{
+		"ControlName"	"TFViewPort"
+	}
+
+	"Close"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"			"rs1-4"
+		"ypos"			"2"
+		"wide"			"8"
+		"tall"			"8"
+		"proportionaltoparent"	"1"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/bg/xpclose"
+
+		"xpos_minmode"			"p0.75-s1-4"
+	}
+
+	"Toggle"
+	{
+		"ControlName"	"Label"
+		"xpos"			"2"
+		"ypos"			"0"
+		"wide"			"8"
+		"tall"			"8"
+		"proportionaltoparent"	"1"
+		"labelText"		"2"
+		"font"			"marlett6"
+		"textAlignment"	"center"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"3"
+		"border"			"xpcaption"
+
+		"labelText_minmode"		"1"
+
+		"pin_to_sibling"	"Close"
+		"pin_corner_to_sibling"	"1"
 	}
 	
 	"MMDashBoardPopupContainer"
@@ -28,7 +72,10 @@
 		"zpos"			"-100"
 		"wide"			"p0.25"
 		"tall"			"f0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
+
+		"visible_minmode"		"1"
 
 		"pinner"
 		{
@@ -59,7 +106,10 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"p0.25"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
+
+		"visible_minmode"		"1"
 
 		"pinner"
 		{
@@ -122,7 +172,7 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"r0"
 		"ypos"	"-50"
 		"wide"	"f0"
 		"tall"	"480"
@@ -133,12 +183,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
+		"xpos"	"r0"
+		"ypos"	"r55"
 		"wide"	"94"
 		"tall"	"45"
 	}
@@ -608,10 +654,75 @@
 		"fieldName" "HudCrosshair"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"p-0.125"
-		"ypos"	"p-0.125"
+		"xpos"	"0"
+		"ypos"	"0"
 		"wide"	 "640"
 		"tall"	 "480"
+
+		"xpos_minmode"	"p-0.125"
+		"ypos_minmode"	"p-0.125"
+	}
+
+	"ChatBG"
+	{
+		"ControlName"	"EditablePanel"
+		"border"		"xpborder"
+
+		"xpos"			"rs1-p0.005"
+		"zpos"			"-99"
+		"ypos"			"10"
+		"wide"	 		"p0.24"
+		"tall"	 		"120"
+
+		"Innards"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"2"
+			"ypos"			"15"
+			"wide"			"f-78"
+			"tall"			"p1.55"
+			"proportionaltoparent"	"1"
+			"visible"		"0"
+
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/bg/chat"
+		}
+
+		"ChatBorder"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"4"
+			"ypos"			"23"
+			"wide"			"f8"
+			"tall"			"79"
+			"proportionaltoparent"	"1"
+			"border"		"XPBlueLineBorder"
+			"bgcolor_override"	"255 255 255 255"
+		}
+		"LineBorder"
+		{
+			"ControlName"	"Panel"
+			"xpos"			"4"
+			"ypos"			"rs1-6"
+			"wide"			"f8"
+			"tall"			"8"
+			"visible"		"0"
+			"proportionaltoparent"	"1"
+			"border"		"XPBlueLineBorder"
+			"bgcolor_override"	"255 255 255 255"
+		}
+
+		"Filter"
+		{
+			"ControlName"	"Label"
+			"font"			"Trebuchet8"
+			"labelText"		"Filters"
+			"fgcolor_override"	"0 0 0 255"
+			"ypos"			"13"
+			"xpos"			"4"
+			"tall"			"11"
+			"textinsetx"	"3"
+		}
 	}
 
 	HudDeathNotice
@@ -619,11 +730,9 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
+		"xpos"	 "rs1-p0.005"
+		"ypos"	 "c0"
+		"wide"	 "p0.24"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "4"
@@ -631,7 +740,7 @@
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "0"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
 		
@@ -1107,12 +1216,22 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"xpos"			"rs1-10"
+		"ypos"			"0"
+		"zpos"			"-5000"
 		"wide"	 		"320"
-		"tall"	 		"120"
+		"tall"	 		"10"
 		"PaintBackgroundType"	"2"
+
+		"ChatInputLine"
+		{
+			"ChatInputPrompt"
+			{
+				"paintBackground"	"0"
+				"bgcolor_override"	"BrightYellow"
+				"paintbackgroundtype"	"1"
+			}
+		}
 	}
 	
 	"HudMenuEngyBuild"

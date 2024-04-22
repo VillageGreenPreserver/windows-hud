@@ -1,0 +1,23 @@
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+startupmenu
+
+sv_unlockedchapters 99
+
+mat_viewportupscale 0
+alias xp_full "mat_viewportscale 1; cl_hud_minmode 0; cl_mainmenu_safemode 0"
+alias xp_windowed "mat_viewportscale 0.75; cl_hud_minmode 1; cl_mainmenu_safemode 1"
